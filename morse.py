@@ -32,6 +32,7 @@ class Solution:
                      newstr+= " "
                 else:
                     newstr+=MORSE_CODE_DICT[message[i]]
+                newstr+= " "
 
             return newstr
 
