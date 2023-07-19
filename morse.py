@@ -30,9 +30,9 @@ class Solution:
                 print(message[i])
                 if(message[i]==" "):
                      newstr+= " "
-                else:
-                    newstr+=MORSE_CODE_DICT[message[i]]
-                newstr+= " "
+                     continue
+                newstr+=MORSE_CODE_DICT[message[i]]+" "
+            newstr= newstr.strip()
 
             return newstr
 
